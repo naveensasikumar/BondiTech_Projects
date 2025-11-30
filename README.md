@@ -104,4 +104,4 @@ Runtime traffic flow (high-level):
 ---
 
 ## Notes
-This repo is intentionally focused on **architecture and workflows** to support portfolio visibility. Implementation code may live in separate repositories depending on environment/security constraints.
+This repo is intentionally focused on **architecture and workflows** to support portfolio visibility. 
