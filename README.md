@@ -2,7 +2,7 @@
 
 This repository contains high-level architecture and workflow diagrams for a multi-portal victim compensation system built for end-to-end claim intake, document handling, messaging, and internal case processing.
 
-📄 **Diagrams (PDF):** `BondiTech_Project_Workflow.pdf`
+📄 **Diagrams (PDF):** [BondiTech_Project_Workflow.pdf](./BondiTech_Project_Workflow.pdf)
 
 ---
 
@@ -65,7 +65,7 @@ The system is designed in layers:
 - **MeiliSearch** for fast filtering/search over large datasets
 - **Amazon S3** for document storage (uploads, generated PDFs, exports)
 
-📄 See: `BondiTech_Project_Workflow.pdf`
+📄 See: [BondiTech_Project_Workflow.pdf](./BondiTech_Project_Workflow.pdf)
 
 ---
 
@@ -80,7 +80,7 @@ CAWEB receives the consolidated case data for internal processing, including:
 - Bill review and EOB generation for finance/payment processing
 - Case activity tree view + auditability
 
-📄 See: `BondiTech_Project_Workflow.pdf`
+📄 See: [BondiTech_Project_Workflow.pdf](./BondiTech_Project_Workflow.pdf)
 
 ---
 
@@ -99,7 +99,7 @@ Runtime traffic flow (high-level):
 - Portals → **.NET/FastAPI** → SQL Server / Redis / MeiliSearch / S3
 - Logs/metrics → Cloud monitoring (if enabled)
 
-📄 See: `BondiTech_Project_Workflow.pdf`
+📄 See: [BondiTech_Project_Workflow.pdf](./BondiTech_Project_Workflow.pdf)
 
 ---
 
